@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <body bgcolor="blue sky">
+        <p>
+      <center>
+        <a href="./home.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">HOME</a>
+        <a href="./list.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">LIST</a>
+        <a href="./form.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">FORM</a>
+        <a href="./table.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">TABLE</a>
+        <a href="./radiobtn.html" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">RADIO BUTTON</a>
+        
+    </center>
+    </p>
+     <center>
+    <!-- Form Page -->
+    
+        <h1>STUDENT FORM</h1>
+        <form>
+            <label for="student_name"><b>Name:</b></label>
+            <input type="text" id="student_name" name="student_name" required><br><br>
+
+            <label for="dept"><b>College:</b></label>
+            <select name="dept" id="dept" required>
+                <option>CBE</option>
+                <option>CMHS</option>
+                <option>CASS</option>
+                <option>CST</option>
+                <option>CAVM</option>
+                <option>CE</option>
+            </select><br><br>
+
+            <label for="age"><b>DOB:</b></label>
+            <input type="text" id="age" name="age" required><br><br>
+
+            <label for="mark"><b>Marks:</b></label>
+            <input type="text" id="mark" name="mark" required><br><br>
+
+            <input type="submit" name="send" value="Submit">
+            <input type="reset" name="cnl" value="Cancel"><br>
+        </form>
+        </center>  
+</body>
+</html>
